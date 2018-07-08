@@ -1,0 +1,23 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "an app for shortening long url",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "shortid": "^2.2.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
