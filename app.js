@@ -40,6 +40,4 @@ app.use((req, res) => {
   res.status(404).send({message: 'not found'});
 })
 
-app.listen(port, () => {
-  console.log(`app is running on port ${port}`);
-});
+app.listen(port);
